@@ -1,0 +1,351 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(font/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    transition: all .3s;
+}
+.container {
+    width: 1300px;
+    /* height: 1500px; */
+    /* border: 1px solid red; */
+    margin: 50px auto;
+}
+.row{
+    height: 800px;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/gMsnXqILjp4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 100px;
+    /* border: 1px solid white; */
+}
+.right__content {
+    width: 350px;
+    /* border: 1px solid #fff; */
+}
+.right__content p{
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.right__content a{
+    text-decoration: none;
+    display: inline;
+
+}
+.right__content img{
+    width: 50px;
+    height: 50px;
+}
+.logo__link {
+    margin-top: 50px;
+}
+.left__content {
+    width: 600px;
+    /* border: 1px solid greenyellow; */
+}
+.links__ul {
+}
+.link__itms {
+    margin-top: 100px;
+}
+.link__itm {
+
+}
+.list__itm{
+    list-style:none ;
+}
+.list__itm li{
+    list-style:none;
+    display: inline-block;
+}
+.list__itm li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.5);
+    margin: 0 15px;
+    font-size: 16px;
+    padding: 3px;
+    
+}
+.list__itm li a:hover {
+    color: #FFFFFF;
+    border-bottom: 5px solid #7000FF;
+}
+.login__list {
+    margin-top: 80px;
+}
+.login {
+    display: inline-block;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #5f12c4;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+.login:hover {
+    background-color: #7000FF;
+}
+
+.about__agensy {
+    text-align: center;
+    margin: 100px 250px;
+    /* border: 1px solid #FFFFFF; */
+}
+.anergy__texts {
+    
+}
+.anergy__texts h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.anergy__texts p{
+    margin: 0 auto;
+    width: 700px;
+    font-size: 14px;
+    color: #d7d7d7;
+    line-height: 30px;
+}
+.get__start {
+    display: inline-block;
+    width: 260px;
+    height: 60px;
+    background: #5f12c4;
+    border-radius: 42px;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 60px;
+    font-size: 20px;
+    margin: 100px 100px 0 0;
+}
+.get__start:hover {
+    background-color: #7000FF;
+}
+.lorem__more {
+    display: inline-block;
+    width: 260px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 42px;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.lorem__more:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.work__content {
+
+}
+.work__title {
+    text-align: center;
+}
+.wotk__text h2{
+    margin-top: 100px;
+    color: #000000;
+    font-size: 50px;
+    
+}
+.wotk__text hr {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+.cards__work {
+    margin: 0 100px;
+    height: 450px;
+    /* border: 1px solid red; */
+}
+.work__itms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between  ;
+}
+.card {
+    margin: 0 20px;
+    text-align: left;
+    /* border: 1px solid blue; */
+    padding: 20px;
+    border-radius: 20px;
+}
+.card:hover {
+    background-color: #7000FF;
+}
+.card__icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: #7000FF;
+}
+.card:hover .card__icon {
+    background-color: #fff;
+}
+.card__icon img{
+    width: 40px;
+    margin: 25px 0 0 22px;
+}
+.card__title h2{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    
+    color: #000000;
+
+}
+.card:hover .card__title h2 {
+    color: #fff;
+} 
+.card:hover .card__title p {
+    color: #fff;
+} 
+.card__title p{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 14px;
+    
+    color: #000000;
+
+}
+.card__title a{
+    display: inline-block;
+    text-decoration: none;
+    width: 110px;
+    height: 50px;
+    background-color: #fff;
+    color: black;
+    border-radius: 25px;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0;
+}
+.card:hover .card__title a {
+    opacity: 1;
+}
+.biznes {
+   
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.biznes__work__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 100px;
+    height: 550px;
+    width: 400px;
+    /* border: 1px solid blue; */
+}
+.biznes__list__itm__img {
+    height: 550px;
+    width: 400px;
+}
+.biznes__list__itm__img img{
+    height: 550px;
+    width: 400px;
+}
+.biznes__list__itm__texts {
+    width: 600px;
+    margin-left: 100px;
+}
+.biznes__list__itm__texts img{
+    width: 600px;
+    height: 330px;
+}
+.biznes__list__itm__texts h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.biznes__list__itm__texts p{
+    line-height: 30px;
+    width: 500px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.footer__content__list {
+    height: 1000px;
+    
+}
+.footer__img {
+    height: 800px;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/X8H8vPcelPk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__img {
+}
+.footer__text {
+    text-align: center;
+    padding: 100px 0;
+}
+.footer__img h2{
+    font-size: 40px;
+    color: #fff;
+}
+.footer__img span{
+    font-size: 40px;
+    color: #7000FF;
+
+}
+.footer__img p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer__img .work__itms{
+    margin: 0 100px;
+}
+.footer__img .work__itms p{
+    font-size: 16px;
+}
+.footer__img .work__itms .card{
+    width: 250px;
+    border: 8px solid #7000FF;
+}
+.footer__img .work__itms .card h2{
+    font-size: 30px;
+
+}
+.footer__img .work__itms .card p{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer__img .work__itms .card img{
+    width: 70px;
+
+}
+
+
+
+
+
+
+.clear {
+    clear: both;
+}
